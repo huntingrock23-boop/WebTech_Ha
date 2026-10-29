@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2>Weekly Class Schedule</h2>
+
+    <table border="1">
+        <tr>
+            <th>Day</th>
+            <th>Time</th>
+            <th>Subject</th>
+            <th>Room</th>
+            <th>Instructor</th>
+        </tr>
+        <tr>
+            <!-- rowspan used to span Monday across two consecutive time slots/rows -->
+            <td rowspan="2">Monday</td>
+            <td>8:00 AM</td>
+            <td>Web Development</td>
+            <td>LAB 1</td>
+            <td>Instructor Name</td>
+        </tr>
+        <tr>
+            <!-- The Monday cell is omitted here because the rowspan covers it -->
+            <td>9:30 AM</td>
+            <td>Web Development Lab</td>
+            <td>LAB 1</td>
+            <td>Instructor Name</td>
+        </tr>
+        <tr>
+            <!-- colspan used to span a Lunch Break horizontally across multiple columns -->
+            <td>Monday - Friday</td>
+            <td>12:00 PM</td>
+            <td colspan="3" align="center">LUNCH BREAK</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>10:00 AM</td>
+            <td>Database</td>
+            <td>LAB 2</td>
+            <td>Instructor Name</td>
+        </tr>
+    </table>
+
+</body>
+</html>
+
+
